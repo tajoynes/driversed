@@ -1,0 +1,19 @@
+.footer-wrapper {
+    height: 100%;
+    background: #dfdfdf;
+    padding: 25px;
+}
+.footerList {
+    list-style: none;
+}
+.footerIcons {
+    border-radius: 15px;
+
+    background-color: rgb(238, 199, 24);
+}
+.btn.footerbtn {
+    border: none;
+    border-radius: 0%;
+    background-color: rgb(238, 199, 24);
+    color: #000;
+}

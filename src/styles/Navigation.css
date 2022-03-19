@@ -1,0 +1,59 @@
+.navBrand {
+    margin-left: 20px;
+}
+.btn.navIcons{ 
+    background: none;
+    border: none;
+}
+.navIcons {
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.navIcons::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.navIcons:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.navBrandSchedule {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBrandScheduleWrapper {
+    font-size: 16px;
+}
+.navlinks {
+        display: inline-block;
+        position: relative;
+}
+.navlinks::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(238, 199, 24);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;}
+
+.navlinks:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
